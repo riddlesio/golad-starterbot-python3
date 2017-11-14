@@ -81,6 +81,8 @@ class Game:
 
         if key == "living_cells":
             player.living_cells = int(value)
+        elif key == "move":
+            player.previous_move = value
         else:
             stderr.write('Cannot parse {} update with key {}'.format(player_name, key))
 

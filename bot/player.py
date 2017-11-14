@@ -5,3 +5,4 @@ class Player:
         self.move = None
         self.id = None
         self.living_cells = -1
+        self.previous_move = None
